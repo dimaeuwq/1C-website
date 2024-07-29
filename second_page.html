@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+    <link rel="manifest" href="img/favicons/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <title>Покупка программного продукта</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap">
+    <style>
+      body {
+           font-family: 'Didact Gothic', sans-serif; /* Используем шрифт Didact Gothic */
+        background-color: #222;
+          color: #fff;
+        margin: 0;
+        padding: 0;
+          
+      }
+a {
+        text-decoration: none; /* Убираем подчеркивание у всех ссылок */
+      }
+      .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 20px;
+        background-color: #333;
+        color: white;
+        border: 2px solid black;
+        margin-top: 20px; /* Отступ сверху */
+        margin-bottom: 20px; /* Отступ снизу */
+        margin-left: 20px; /* Отступ слева */
+        margin-right: 20px; /* Отступ справа */
+        font-weight: bold; 
+        
+      }
+
+      .logo {
+        width: 200px; /* Задайте нужную ширину для логотипа */
+          animation: blink 1s infinite alternate; /* Анимация мигания */
+      }
+
+      @keyframes blink {
+        0% { opacity: 1; }
+        100% { opacity: 0; }
+      }
+
+      .company-name {
+        font-size: 24px;
+        font-weight: bold;
+        margin-left: auto;
+        text-align: center;
+        flex-grow: 1;
+        font-weight: bold; 
+      }
+
+        @keyframes changeColor {
+            0% { color: #ff0000; } /* Начальный цвет */
+            50% { color: #00ff00; } /* Середина анимации */
+            100% { color: #0000ff; } /* Конечный цвет */
+        }
+            .info-box {
+            text-align: justify; /* Ровное выравнивание текста */
+            border: 2px solid black; /* Рамка вокруг текста */
+            padding: 10px;
+            margin-top: 90px; /* Расстояние сверху от кнопок */
+            height: 400px;
+            width: 600px; /* Ширина блока с информацией */
+            margin-left: 35%; /* Центрирование блока по горизонтали */
+            background-color: #444;
+        }
+         .highlight {
+            animation: changeColor 5s infinite; /* Применяем анимацию к тексту */
+             font-weight: bold;
+             }
+        .info-box p {
+    text-indent: 30px; /* Убираем отступы в начале предложений */
+        }
+        
+        .footer {
+        background-color: #444; /* Цвет фона нижнего блока */
+        color: white; /* Цвет текста в нижнем блоке */
+        padding: 20px;
+        text-align: center;
+        border: 2px solid black;
+        margin-top: 150px; /* Отступ сверху */
+        margin-bottom: 20px; /* Отступ снизу */
+        margin-left: 20px; /* Отступ слева */
+        margin-right: 20px; /* Отступ справа */
+        }
+        .info-box img {
+    display: block; /* Устанавливаем блочный тип элемента */
+    margin: -30px  165px; /* Центрируем изображение по горизонтали внутри блока */
+}
+        
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="img/cement.png" alt="Логотип">
+        </div>
+        <hr style="height: 50px; margin: 0; border-color: black;">
+        <div class="company-name">
+            Покупка программного продукта
+        </div>
+    </div>
+        <div class="info-box">
+        <p>Для того чтобы купить наш программный продукт по охране труда и технике безопасности, свяжитесь с нами одним из следующих способов:</p>
+    <p> 1. По телефону:<strong><span style="color: greenyellow;"> 8 (813) 664-9191</span></strong><br></p>
+    <p> 2. По электронной почте: <strong><span style="color: gold;">1cproduct@yandex.ru</span></strong><br></p>
+    <p>Наши менеджеры с удовольствием проконсультируют вас по всем вопросам, касающимся приобретения программного продукта, предоставят информацию о ценах, способах оплаты и условиях доставки. Не стесняйтесь обращаться к нам — мы готовы помочь вам с покупкой нашего программного продукта.</p>
+<img src="img/143.gif" alt="Анимация" width="250" height="150">
+    </div>
+<div class="footer">
+    <div style="float: left; width: 50%; text-align: center;">
+        <p><strong>АДРЕС</strong><br>
+        Старорусская ул., 12, Санкт-Петербург, 191789</p>
+    </div>
+    <div style="float: right; width: 50%; text-align: center;">
+        <p><strong>КОНТАКТЫ</strong><br>
+        Телефон: 8 (813) 664-9191<br>
+        Электронная почта: 1cproduct@yandex.ru</p>
+    </div>
+    <div style="clear: both;"></div>
+</div>
+</body>
+    
+</html>

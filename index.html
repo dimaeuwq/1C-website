@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+        <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+    <link rel="manifest" href="img/favicons/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <title>1C-ПРОДУКТ</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap">
+    <style>
+        
+      body {
+          
+           font-family: 'Didact Gothic', sans-serif; /* Используем шрифт Didact Gothic */
+        background-color: #222;
+          color: #fff;
+        margin: 0;
+        padding: 0;
+          
+      }
+a {
+        text-decoration: none; /* Убираем подчеркивание у всех ссылок */
+      }
+      .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 20px;
+        background-color: #333;
+        color: white;
+        border: 2px solid black;
+        margin-top: 20px; /* Отступ сверху */
+        margin-bottom: 20px; /* Отступ снизу */
+        margin-left: 20px; /* Отступ слева */
+        margin-right: 20px; /* Отступ справа */
+        font-weight: bold; 
+        
+      }
+
+      .logo {
+        width: 200px; /* Задайте нужную ширину для логотипа */
+          animation: blink 1s infinite alternate; /* Анимация мигания */
+      }
+
+      @keyframes blink {
+        0% { opacity: 1; }
+        100% { opacity: 0; }
+      }
+
+      .company-name {
+        font-size: 24px;
+        font-weight: bold;
+        margin-left: auto;
+        text-align: center;
+        flex-grow: 1;
+        font-weight: bold; 
+      }
+         button:hover {
+        cursor: pointer;
+        }
+        
+        .button-container-left {
+            position: absolute;
+            left: 180px;
+            top: 69%;
+            transform: translateY(-50%);
+            
+        }
+            .button-container-right {
+            position: absolute;
+            right: 180px;
+            top: 69%;
+            transform: translateY(-50%);
+        }
+        
+        @keyframes changeColor {
+            0% { color: #ff0000; } /* Начальный цвет */
+            50% { color: #00ff00; } /* Середина анимации */
+            100% { color: #0000ff; } /* Конечный цвет */
+        }
+            .info-box {
+            text-align: justify; /* Ровное выравнивание текста */
+            border: 2px solid black; /* Рамка вокруг текста */
+            padding: 10px;
+            margin-top: 90px; /* Расстояние сверху от кнопок */
+            height: 600px;
+            width: 440px; /* Ширина блока с информацией */
+            margin-left: auto; /* Центрирование блока по горизонтали */
+            margin-right: auto; /* Центрирование блока по горизонтали */
+                background-color: #444;
+        }
+         .highlight {
+            animation: changeColor 5s infinite; /* Применяем анимацию к тексту */
+             font-weight: bold;
+             }
+        .info-box p {
+    text-indent: 30px; /* Убираем отступы в начале предложений */
+        }
+        button {
+             font-family: 'Didact Gothic', sans-serif; /* Используем шрифт Didact Gothic */
+            background-color: #666; /* Темно-синий цвет */
+            color: white; /* Белый текст */
+            display: block;
+            margin-bottom: 100px;
+            font-size: 18px; /* Увеличение размера шрифта */
+            width:160px;
+            height:135px;
+        }
+              button:hover {
+        background-color: #888; /* Новый цвет фона при наведении */
+        transform: scale(1.1); /* Увеличение размера кнопки на 10% при наведении */
+      }
+        
+        .footer {
+        background-color: #444; /* Цвет фона нижнего блока */
+        color: white; /* Цвет текста в нижнем блоке */
+        padding: 20px;
+        text-align: center;
+        border: 2px solid black;
+        margin-top: 150px; /* Отступ сверху */
+        margin-bottom: 20px; /* Отступ снизу */
+        margin-left: 20px; /* Отступ слева */
+        margin-right: 20px; /* Отступ справа */
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="img/cement.png" alt="Логотип">
+        </div>
+        <hr style="height: 50px; margin: 0; border-color: black;">
+        <div class="company-name">
+            1С-ПРОДУКТ
+        </div>
+    </div>
+        <div class="button-container-left">
+        <a href="https://docs.google.com/presentation/d/1gjvhp292hmIQnSviEwD-tff2A3DKMH0p/preview?start=true&delayms=5000" target="_blank"><button>Бизнес-презентация</button></a>
+        <a href="https://drive.google.com/file/d/1zCO2b4uBKvJOqINa1xxoQ3p6aef13mpE/view?usp=sharing" target="_blank"><button>Видеообзор</button></a>
+        <button>Руководство пользователя</button>
+    </div>
+        <div class="info-box">
+        <p><span class="highlight">1С-ПРОДУКТ</span> - молодая, но амбициозная компания, занимающаяся разработкой программного обеспечения в сфере охраны труда и техники безопасности. Наша компания была основана с целью создания инновационных решений для обеспечения безопасности на рабочем месте. Несмотря на то, что наше имя пока не так широко известно, мы уверены в потенциале нашего продукта и стремимся зарекомендовать себя как надежного партнера в области безопасности труда.</p>
+        <p>Наш продукт "<span class="highlight">Охрана труда и техника безопасности</span>" разработан с использованием передовых технологий и с учетом всех требований законодательства в области охраны труда. Данный продукт предоставит компаниям возможность автоматизировать процессы управления охраной труда, повысить эффективность контроля над безопасностью на производстве и минимизировать риски для сотрудников. Наш продукт отличается простотой в использовании, надежностью и соответствием высоким стандартам качества.</p>
+        <p>Хотя компания "<span class="highlight">1С-ПРОДУКТ</span>" пока не имеет широкой известности, мы уверены, что наша преданность качеству и инновациям поможет нам завоевать доверие клиентов. Мы гордимся нашим продуктом и готовы предложить его потенциальным клиентам как надежное и эффективное решение для обеспечения безопасности на рабочих местах.</p>
+
+    </div>
+        <div class="button-container-right">
+        <a href="https://drive.google.com/file/d/1sJwHFfsgCVBn03HBh_ebojvO2AGgf1uA/view?usp=sharing" target="_blank"><button>Коммерческое предложение</button></a>
+        <a href="https://drive.google.com/file/d/1v9FuMF80pOq006snpduvSv85eCfYxy1M/view?usp=sharing" target="_blank"><button>Демо-версия</button></a>
+        <a href="second_page.html" target="_blank"><button>Ссылка на программный продукт</button></a>
+    </div>
+<div class="footer">
+    <div style="float: left; width: 50%; text-align: center;">
+        <p><strong>АДРЕС</strong><br>
+        Старорусская ул., 12, Санкт-Петербург, 191789</p>
+    </div>
+    <div style="float: right; width: 50%; text-align: center;">
+        <p><strong>КОНТАКТЫ</strong><br>
+        Телефон: 8 (813) 664-9191<br>
+        Электронная почта: 1cproduct@yandex.ru</p>
+    </div>
+    <div style="clear: both;"></div>
+</div>
+    
+</body>
+    
+</html>
